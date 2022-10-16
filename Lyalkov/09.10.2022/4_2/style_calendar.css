@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+.calendar-days{
+  border: 1px solid;
+}
+.calendar ul li{
+  display: inline-block;
+  line-height: 40px;
+  width: 40px;
+  font-size: 14px;
+  text-align: center;
+  border-left: 1px solid;
+  border-bottom: 1px solid;
+  background-color: rgb(73, 110, 36);
+}
+.calendar ul{
+  font-size: 0px;
+  width: 282px;
+}
+.calendar-weekdays {
+border: 1px solid;
+}
+.calendar-days li:nth-child(32)~li{
+  background-color: beige; 
+}
+.calendar-days li:nth-child(1){
+  background-color: beige; 
+}
+.calendar-days li:nth-child(2){
+  background-color: beige; 
+} 
+.calendar-days li:nth-child(7n+6), .calendar-days li:nth-child(7n+7){
+  background-color :rgb(59, 101, 150);
+  border-color :black;
+  color: crimson;
+}

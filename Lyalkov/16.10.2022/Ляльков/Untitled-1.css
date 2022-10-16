@@ -1,0 +1,48 @@
+@font-face {
+    font-family: Тётя Маша;
+    src: url(pobeda-bold1.ttf);
+}
+
+h2{
+    font-family: Тётя Маша;
+    text-shadow: 2px 2px rgb(255, 255, 255), 4px 4px rgb(104, 100, 100);
+    font-size: 30px;
+
+}
+p{
+    font-family: Тётя Маша;
+  font-size: 20px;
+}
+ul{
+    font-size: 18px;
+    font-family: Тётя Маша;
+}
+li:nth-child(2){
+    background-color: rgb(116, 116, 116);
+}
+li:nth-child(6){
+    background-color:  rgb(116, 116, 116);
+}
+img#i1{
+    border-radius: 5%;
+   
+}
+img#i2{
+    border-radius: 15%;
+}
+img#i3{
+    border-radius: 25%;
+}
+a{
+    font-size: 18px;
+    font-family: Тётя Маша;
+}
+a:active{
+    color: red;
+}
+a:visited{
+    color: black;
+}
+a:hover{
+    font-size: 25px; ;
+}

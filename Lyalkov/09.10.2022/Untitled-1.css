@@ -1,0 +1,24 @@
+h1 {
+   text-shadow:3px 3px rgb(130, 97, 167) ,3px 3px rgb(75, 70, 70) ;
+    color:rgb(83, 55, 116);
+}
+.subtitle {
+    color: rgb(67, 79, 112);
+}
+p{
+    text-transform:lowercase ;
+    font-size: 30px;
+    text-align: center;
+}
+#d {
+    background-color: indigo;
+}
+#b {
+    background-color:rgb(204, 0, 255);
+}
+#f {
+    background-color:rgb(233, 34, 110)
+}
+li {
+    font-size: 20px;;
+}
