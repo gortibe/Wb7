@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    body{
+        display: grid;
+        grid-template-areas:
+        "a a a"
+        "b с d"
+        "e e e";
+        grid-template-rows: 60px 1fr 60px;
+        grid-template-columns: 20% 1fr 15%;
+        gap: 10px;
+        height: 100vh;
+    }
+    header{
+        grid-area: a;
+        background-color: antiquewhite;
+    }
+    nav{
+        grid-area: b;
+        background-color: antiquewhite;
+    }
+    main{
+        grid-area: c;
+        background-color: antiquewhite;
+    }
+    aside{
+        grid-area: d;
+        background-color: antiquewhite;
+    }
+    footer{
+        grid-area: e;
+        background-color: antiquewhite;
+    }
+    
+    </style>
+</head>
+<body>
+    <header>Шапка</header>
+    <nav>Навигация</nav>
+    <main>Основа</main>
+    <aside>Реклама</aside>
+    <footer>Подвал</footer>
+    <body background="Fight club"></body>
+</body>
+</html>
