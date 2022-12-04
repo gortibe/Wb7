@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    @font-face {
+        font-family: Nautilus;
+        src: url("Nautilus.otf");
+    }
+    body{
+    display: grid;
+    grid-template-areas:
+     "a  a  a"
+     "b  b  b"
+     "g   g  g"
+     "e  e  e";
+     grid-template-rows:1fr 2fr 2fr 2fr 1fr ;
+     grid-template-columns:20% 1fr 15% ;
+     gap:10px;
+     height: 100vh;
+     font-size: 25px;
+
+     }
+     #g1{
+     display: flex;
+      grid-area:a;
+      background-color: rgb(226, 235, 236);
+      height: 400px;
+      border-radius: 10px;
+      font-family: Nautilus;
+ 
+     }
+     #pi1{
+     height: 350px;
+     width: 350px;
+     border-radius: 20px;
+     margin: 25px;
+     }
+     #g2{
+     display: flex;
+      grid-area:b;
+      background-color:rgb(226, 235, 236);
+      height: 1500px;
+      border-radius: 10px;
+      justify-content: space-around;
+     }
+     .ti1{
+     height: 350px;
+     width: 350px;
+     margin-top: 30px;
+     border-radius: 20px;
+     }
+     h3{
+     text-align: left;
+     }
+     #g1 div{
+     width: 55%;}
+    </style>
+</head>
+<body>
+    <header id="g1">
+        <img src="настя.webp" id="pi1"> 
+        <div>
+            <h3>Обо мне</h3>
+            <p>Меня зовут Анастасия. Я керамист. В своём деле я уже 5 лет.
+                Пройдя  базовый и продвинутый курс, я почти сразу же стала работать в ВОЗДУХе.  
+                 Когда я работаю с глиной, все тревожные мысли в моей голове растворяются. Глина учит терпению и принятию. 
+                  Когда ты стараешься, делаешь какое-либо изделие или изделия, а потом всё это лопается в печи - остаётся только принять этот факт и делать всё заново.
+                    Важно принять и понять, что следующее изделие будет лучше. 
+                 Я люблю вести мастер-классы, обучать людей и видеть, как они радуются своему первому изделию.
+                 Вспоминать себя и свои ощущения. Люблю работать с малышами и видеть эту детскую наивность, творчество и горящие глаза.
+                  Порой у них можно научится гораздо большему, чем у взрослого человека.  Керамика стала для меня жизнью, а не работой.</p>
+        </div>
+    </header>
+    <main id="g2">
+    <img src="фото1.jpg" class="ti1">
+    <img src="фото2.jpg" class="ti1">
+    <img src="фото3.webp" class="ti1">
+    </main>
+    <div id="g3"></div>
+    <footer id="g4"></footer>
+</body>
+</html>
