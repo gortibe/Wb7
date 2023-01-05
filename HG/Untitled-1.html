@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    @font-face {
+    font-family: rtyu; 
+    src: url("rtyu.otf");
+   }
+    
+    body{
+    display: grid;
+    grid-template-areas:
+     "a  a  a"
+     "b  b  b"
+     "f  f  f "
+     "s  s  s "
+     ;
+     grid-template-rows:1fr 2fr 2fr 2fr 1fr ;
+     grid-template-columns:20% 1fr 15% ;
+     gap: 0px;
+     height: 100vh;
+     font-size: 25px;}
+     .g1{
+        display: flex;
+        grid-area: a;
+        width: 100%;
+        height: 100px;
+        background-color: #5588A3;
+        border-radius: 10px;
+       justify-content: center;
+       margin-bottom: 10px;
+     }
+     .gf1{
+        display: flex;
+        grid-area: b;
+        width: 100%;
+        height: 100px;
+        background-color: #145374;
+        border-radius: 10px;
+       
+       align-items: flex-end;
+       margin: 0px;
+     }
+     .gf{
+        display: flex;
+        grid-area: f;
+        width: 100%;
+        height: 800px;
+        background-color: #145374;
+        border-radius: 10px;
+        justify-content:space-around;
+       align-items: flex-end;
+       margin: 0px;
+     }
+     .g2{
+        width: 400px;
+        height: 400px;
+        background-color:#FFD56F ;
+       margin-bottom: 60px;
+       border-radius: 20px;
+     }
+     
+     .g3{
+        width: 400px;
+        height: 400px;
+        background-color:#FFD56F ;
+       margin-bottom: 60px;
+       border-radius: 20px;
+       
+     }
+    
+     .g4{
+        width: 400px;
+        height: 400px;
+        background-color:#FFD56F ;
+       margin-bottom: 60px;
+       border-radius: 20px;
+       
+     }
+     .pi{
+        height: 80px;
+        width: 130px;
+        margin: 5px;
+     }
+    
+       
+    
+     
+    .gf h2{
+       text-align: center;
+    }
+     .gf li{
+       margin-top: 40px;
+     }
+   </style>
+</head>
+<body>
+ <header class="g1">
+<h2>Гайд юного Айтиновца</h2>
+
+ </header>
+ <content class="gf"> 
+    <a href="https://iteen.by/"><img class="pi" src="of.png"> </a>
+   
+    <div class="g2">
+       <h2>1-3 класс</h2>
+      <ul>
+        <li>Computer science</li>
+        <li>Робототехника</li>
+        <li>Спортивная робототехника</li>
+        <li>Программирование и Game Dev</li>
+      </ul>
+    </div>
+     <div class="g3">
+        <h2>4-6 класс</h2>
+        <ul>
+          <li>Техномейкерство</li>
+          <li>Программирование и Game Dev</li>
+          <li>Дизайн</li>
+          <li>Квадрокоптеры</li>
+        </ul>
+     </div>
+     <div class="g4">
+        <h2>7-11 класс</h2>
+        <ul>
+          <li>Дизайн</li>
+          <li>Web-технологии</li>
+          <li>Программирование и Game Dev</li>
+          <li>Техномейкерство</li>
+        </ul>
+     </div>
+    
+    </content>
+<footer class="gt"></footer>
+
+</body>
+</html>
