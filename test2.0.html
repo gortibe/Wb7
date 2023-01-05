@@ -39,14 +39,17 @@
       height: 1100px;
       border-radius: 10px;
       position: relative;
+      display: flex;
+      flex-wrap: wrap;
  
      
      }
     .g2{
       background-color:#E8E8E8;
       height: 600px;
-
      width: 100%;
+     justify-content: center;
+            flex-direction: row;
      
     }
     .g3{
@@ -54,8 +57,6 @@
     height: 400px;
     width: 100%;
    
-    
-    
     }
 
    
@@ -75,13 +76,77 @@
        .gt{
         display: flex;
         grid-area: f;
+        background-color:#000000;
         width: 100%;
-        height: 500px;
+        height:900px;
         margin-top:105px ;
-        background-color:#00334E;
-      
-        
     }
+
+    
+.logo{
+    margin-right: 380px;
+    margin-top: 66vh;
+
+    width: 400px;
+    height: 400px;
+}
+
+.gt ul{
+    margin-top: 1000px;
+}
+
+.m {
+    height: 500px;
+	width: 700px;
+	border: 1px solid rgb(0, 0, 0);
+	background: #000000;
+	margin: 0px auto;
+    margin-top:398px;
+}
+.m ul {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	
+	padding: 0px; 
+	margin: 0px;
+}
+.m li {
+	list-style-type: none;	
+
+}
+.m a {
+	padding: 10px;
+	color: rgb(255, 255, 255);
+	display: flex;
+	text-decoration: none;
+	text-align: center;
+}
+.m li:hover {
+	background-color: rgb(0, 0, 0);
+}
+.m li:hover a {
+	color: #5588A3;
+}
+.g4 li{
+    color:#E8E8E8;
+    margin-top: 40px;
+}
+
+
+
+
+
+.circle {
+  background: green;
+  border-radius: 100%;
+  width: 100px;
+  height: 100px;
+
+}
+
+
+
    </style>
 </head>
 <body>
@@ -90,13 +155,38 @@
 
  </header>
  <main class="gf">
-    <div class="g2"></div>
+    <div class="g2">
+
+    </div>
      <div class="g3"></div>
-<div class="g4">
-    
+<article class="g4">
+
+    <p><b>Что должен знать новичок?</b></p><p>Тот, кто только собирается стать программистом, должен помнить несколько вещей, чтобы не разочароваться в профессии сразу после начала работы.</p>
+    <ul>
+        <li>Нужно тратить время на обучение. В свободное от работы время стоит знакомиться с профессиональной литературой, общаться с более опытными коллегами и повышать квалификацию другими способами.</li>
+        <li>Нужно выполнять правила. Программист, вливающийся в новый коллектив, обязан соблюдать все правила, которые уже были там установлены, для продуктивной работы и взаимодействия с другими.</li>
+        <li>Нужно принимать критику. Часто заказчика не устраивает качество работы, и он возвращает продукт на исправление. Критику можно получить и от коллег, замечающих ошибки новичка. Важно спокойно принимать замечания и исправлять недочёты.</li>
+    </ul>
 </div>
+
+
+</article>
     </main>
-<footer class="gt"></footer>
+<footer class="gt">
+    
+	<div class="m">
+		<ul>
+			<li><a href="">Главная</a></li>
+			<li><a href="">О компании</a></li>
+			<li><a href="">Информация</a></li>
+			<li><a href="">О нас</a></li>
+		</ul>
+	</div>
+    <img src="Red White Creative Name Letter Company Logo  (1).png" class="logo ">
+    <div class="circle"><img src="pngwing.com (29).png" class="img1"></div>
+    <div class="circle"><img src=""></div>
+    <div class="circle"><img src=""></div>
+</footer>
 
 </body>
 </html>
