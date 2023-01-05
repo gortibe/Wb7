@@ -7,7 +7,7 @@
     <title>Document</title>
     <style>
 
-    
+
     body{
     display: grid;
     grid-template-areas:
@@ -20,7 +20,7 @@
      gap:10px;
      height: 100vh;
      font-size: 25px;
-     
+     margin: 40px;
      }
      .g1{
      display: flex;
@@ -84,24 +84,28 @@
 
     
 .logo{
-    margin-right: 380px;
-    margin-top: 66vh;
-
+   position: absolute;
+   margin-left: 500px;
+    margin-top: 59vh;
+    
     width: 400px;
     height: 400px;
 }
 
 .gt ul{
-    margin-top: 1000px;
+    margin-top: 100px;
 }
 
 .m {
-    height: 500px;
+    height: 400px;
 	width: 700px;
 	border: 1px solid rgb(0, 0, 0);
 	background: #000000;
 	margin: 0px auto;
     margin-top:398px;
+    margin-left: 370px;
+
+   
 }
 .m ul {
 	display: flex;
@@ -134,17 +138,33 @@
 }
 
 
+.div20{
+    margin-left: 50px;
+    
+}
+.div20 li:hover {
+   color:#ff0000;
+}
 
+.round {
 
-
-.circle {
-  background: green;
-  border-radius: 100%;
-  width: 100px;
-  height: 100px;
+  width: 10em;
+  height: 10em;
+  border: 2px solid red;
+  clip-path: circle(2em at 20% 20%);
+  margin-top: 80vh;
+  margin-left: 20vh;
+  background: mistyrose;
 
 }
 
+.gain-left {
+  transition: 1s; 
+  text-align: left; 
+}
+.gain-left:hover {
+  transform: scale(1.2); 
+}
 
 
    </style>
@@ -160,12 +180,12 @@
     </div>
      <div class="g3"></div>
 <article class="g4">
-
-    <p><b>Что должен знать новичок?</b></p><p>Тот, кто только собирается стать программистом, должен помнить несколько вещей, чтобы не разочароваться в профессии сразу после начала работы.</p>
+    <div class="div20">
+    <p><b>Что должен знать новичок?</b></p><p>Тот, кто только собирается стать программистом, должен помнить несколько вещей, чтобы не разочароваться в профессии сразу после начала работы:</p>
     <ul>
-        <li>Нужно тратить время на обучение. В свободное от работы время стоит знакомиться с профессиональной литературой, общаться с более опытными коллегами и повышать квалификацию другими способами.</li>
-        <li>Нужно выполнять правила. Программист, вливающийся в новый коллектив, обязан соблюдать все правила, которые уже были там установлены, для продуктивной работы и взаимодействия с другими.</li>
-        <li>Нужно принимать критику. Часто заказчика не устраивает качество работы, и он возвращает продукт на исправление. Критику можно получить и от коллег, замечающих ошибки новичка. Важно спокойно принимать замечания и исправлять недочёты.</li>
+        <li class="gain-left">Нужно тратить время на обучение. В свободное от работы время стоит знакомиться с профессиональной литературой, общаться с более опытными коллегами и повышать квалификацию другими способами.</li>
+        <li class="gain-left">Нужно выполнять правила. Программист, вливающийся в новый коллектив, обязан соблюдать все правила, которые уже были там установлены, для продуктивной работы и взаимодействия с другими.</li>
+        <li class="gain-left">Нужно принимать критику. Часто заказчика не устраивает качество работы, и он возвращает продукт на исправление. Критику можно получить и от коллег, замечающих ошибки новичка. Важно спокойно принимать замечания и исправлять недочёты.</li>
     </ul>
 </div>
 
@@ -173,7 +193,8 @@
 </article>
     </main>
 <footer class="gt">
-    
+    <div class="round">текст</div>
+    <div class="round">текст</div>
 	<div class="m">
 		<ul>
 			<li><a href="">Главная</a></li>
@@ -182,10 +203,8 @@
 			<li><a href="">О нас</a></li>
 		</ul>
 	</div>
+   
     <img src="Red White Creative Name Letter Company Logo  (1).png" class="logo ">
-    <div class="circle"><img src="pngwing.com (29).png" class="img1"></div>
-    <div class="circle"><img src=""></div>
-    <div class="circle"><img src=""></div>
 </footer>
 
 </body>
